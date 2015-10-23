@@ -6,7 +6,6 @@ body {
 }
 
 ul {
-    list-style: none;
     padding: 0;
 }
 
@@ -18,8 +17,17 @@ a {
     color: #3E526F;
 }
 
-    
-    
+.projects ul {
+    list-style: circle;
+}
+
+.projects li {
+    padding-left: 1em;
+    margin-left: 2em;
+}
+
+
+
 
 /**************************/
 /** Header **/
@@ -37,7 +45,7 @@ header {
 #introduction {
     max-width: 360px;
     padding: 16px;
-    background-color: rgba(236,215,246,.5); 
+    background-color: rgba(236,215,246,.5);
     margin: 0 auto 57px;
     border-radius: 3px;
 }
@@ -45,7 +53,7 @@ header {
 #introduction h1 {
     font-size: 3em;
     font-family: 'Roboto Condensed';
-    color: #5522A5; 
+    color: #5522A5;
 }
 
 #introduction p {
@@ -91,7 +99,7 @@ nav ul li a {
 
 #content {
     padding: 2em;
-    background: rgb(217,228,251); 
+    background: rgb(217,228,251);
 	clear: both;
 }
 
@@ -232,7 +240,7 @@ nav ul li a {
 }
 
 #experience .content h4 {
-    margin: 3px 0;   
+    margin: 3px 0;
 }
 
 /** Time Line **/
@@ -288,7 +296,7 @@ nav ul li a {
 }
 
 .work:hover .circle {
-    background: #F26756;   
+    background: #F26756;
 }
 
 .work:hover .date {
