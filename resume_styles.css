@@ -26,9 +26,6 @@ a {
     margin-left: 2em;
 }
 
-
-
-
 /**************************/
 /** Header **/
 /**************************/
@@ -109,7 +106,7 @@ nav ul li a {
     overflow: hidden;
 }
 
-#content section h2 {
+#content section h2, h2 {
     margin: 0;
     font-size: 1.7em;
     color: #1C3F6F;
@@ -261,9 +258,11 @@ nav ul li a {
     margin: 0 0 5px;
 }
 
-#timeline label {
+label,
+.projects strong {
     font-size: 1.5em;
     color: #1C3F6F;
+    font-weight: normal;
 }
 
 
