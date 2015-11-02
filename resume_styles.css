@@ -159,9 +159,9 @@ nav ul li a {
   content: '\f0d4';
 }
 
-/** Education **/
-
-
+.social_Media_Links .github:after {
+  content: '\f09b';
+}
 
 /** Skills **/
 
